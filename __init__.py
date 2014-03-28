@@ -31,7 +31,7 @@ import flask
 from app import app
 
 # configure app
-DEBUG = True
+DEBUG = False
 if DEBUG:
     SECRET_KEY = 'flask development key'
 else:
